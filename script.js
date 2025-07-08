@@ -1,3 +1,4 @@
+// Função para exibir o conteúdo do primeiro tópico
 document.getElementById('link1').addEventListener('click', function (e) {
   e.preventDefault();
   document.getElementById('content').innerHTML = `
@@ -6,6 +7,7 @@ document.getElementById('link1').addEventListener('click', function (e) {
   `;
 });
 
+// Função para exibir o conteúdo do segundo tópico
 document.getElementById('link2').addEventListener('click', function (e) {
   e.preventDefault();
   document.getElementById('content').innerHTML = `
@@ -18,6 +20,7 @@ document.getElementById('link2').addEventListener('click', function (e) {
         <li>Banco de Dados: PostgreSQL, MongoDB, Redis</li>
         <li>Outros: Kubernetes, Kafka</li>
       </ul>
+      <p>Atualmente curso análise e desenvolvimento de sistemas pela Uniter.</p>
       <p>Para mais informações sobre carreira, acesse o READ.ME do meu GitHub:</p>
       <p>
         <a href="https://github.com/developerdiegorodrigues" target="_blank" style="color: #4ea1d3;">Página inicial do GitHub</a>
@@ -26,6 +29,7 @@ document.getElementById('link2').addEventListener('click', function (e) {
   `;
 });
 
+// Função para exibir o conteúdo do terceiro tópico
 document.getElementById('link3').addEventListener('click', function (e) {
   e.preventDefault();
   document.getElementById('content').innerHTML = `
@@ -36,6 +40,7 @@ document.getElementById('link3').addEventListener('click', function (e) {
   `;
 });
 
+// Função para exibir o conteúdo do quarto tópico
 document.getElementById('link4').addEventListener('click', function (e) {
   e.preventDefault();
   document.getElementById('content').innerHTML = `
