@@ -20,7 +20,7 @@ document.getElementById('link2').addEventListener('click', function (e) {
         <li>Banco de Dados: PostgreSQL, MongoDB, Redis</li>
         <li>Outros: Kubernetes, Kafka</li>
       </ul>
-      <p>Atualmente curso análise e desenvolvimento de sistemas pela Uniter.</p>
+      <p>Atualmente curso análise e desenvolvimento de sistemas pela <a href="https://www.uninter.com/" target="_blank" style="color: #4ea1d3;">Uninter</a>.</p>
       <p>Para mais informações sobre carreira, acesse o READ.ME do meu GitHub:</p>
       <p>
         <a href="https://github.com/developerdiegorodrigues" target="_blank" style="color: #4ea1d3;">Página inicial do GitHub</a>
